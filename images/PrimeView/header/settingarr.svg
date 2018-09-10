@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="15" viewBox="0 0 25 15">
+  <defs>
+    <linearGradient id="arrow-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#AEAEAE"/>
+      <stop offset="100%" stop-color="#788885"/>
+    </linearGradient>
+    <polygon id="arrow-b" points="1407 57 1418.873 70.155 1430.746 57"/>
+    <filter id="arrow-a" width="116.8%" height="130.4%" x="-8.4%" y="-7.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" opacity=".473" transform="translate(-1406 -57)">
+    <use fill="#000" filter="url(#arrow-a)" xlink:href="#arrow-b"/>
+    <use fill="url(#arrow-c)" xlink:href="#arrow-b"/>
+  </g>
+</svg>

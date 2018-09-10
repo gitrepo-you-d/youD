@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="59" viewBox="0 0 48 59">
+  <defs>
+    <path id="green-b" d="M43.5785884,6.92598158 L23.6043169,0.984493868 C23.2259018,0.882198401 22.8690795,0.882198401 22.5315829,0.972737031 L2.51596105,6.92598158 C1.04095187,7.33373504 0.0129151764,8.70005527 0.0129151764,10.2577812 L0.0129151764,39.2408008 C0.0129151764,43.0461702 2.07686997,46.4771887 5.40271228,48.2084104 L18.4819475,56.0322006 C19.9736911,56.8021086 21.5104559,57.1619557 23.0472207,57.1619557 C24.5838776,57.1619557 26.1207503,56.8022185 27.52148,56.0826341 L40.6917292,48.2084104 C44.0175715,46.4774085 46.0815263,43.04639 46.0815263,39.2408008 L46.0815263,10.2577812 C46.0814183,8.70016514 45.0535975,7.33384492 43.5785884,6.92598158 Z"/>
+    <filter id="green-a" width="108.7%" height="107.1%" x="-2.2%" y="-1.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+    <polygon id="green-d" points="23.571 10.458 27.291 18.145 35.611 19.378 29.591 25.361 31.012 33.81 23.571 29.821 16.129 33.81 17.55 25.361 11.53 19.378 19.85 18.145"/>
+    <filter id="green-c" width="116.6%" height="117.1%" x="-8.3%" y="-4.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" transform="translate(0 -.5)">
+    <use fill="#000" filter="url(#green-a)" xlink:href="#green-b"/>
+    <use fill="#7ED321" fill-rule="evenodd" xlink:href="#green-b"/>
+    <use fill="#000" filter="url(#green-c)" xlink:href="#green-d"/>
+    <use fill="#F8001E" fill-rule="evenodd" xlink:href="#green-d"/>
+  </g>
+</svg>

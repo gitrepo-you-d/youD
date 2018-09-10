@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <linearGradient id="my-network-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#AEAEAE"/>
+      <stop offset="100%" stop-color="#788885"/>
+    </linearGradient>
+    <circle id="my-network-b" cx="24.5" cy="24.5" r="24.5"/>
+    <filter id="my-network-a" width="108.2%" height="108.2%" x="-4.1%" y="-2%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+    <filter id="my-network-d" width="122.2%" height="123.5%" x="-11.1%" y="-5.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="my-network-e" d="M9,0.447368421 C11.3205,0.447368421 13.2,2.24914474 13.2,4.47368421 C13.2,6.69822368 11.3205,8.5 9,8.5 C6.6795,8.5 4.8,6.69822368 4.8,4.47368421 C4.8,2.24914474 6.6795,0.447368421 9,0.447368421 Z M9,9.50657895 C11.8035,9.50657895 17.4,10.8553947 17.4,13.5328947 L17.4,16.5526316 L0.6,16.5526316 L0.6,13.5328947 C0.6,10.8553947 6.1965,9.50657895 9,9.50657895 Z"/>
+    <rect id="my-network-g" width="52.5" height="50.329"/>
+    <filter id="my-network-h" width="117.4%" height="118.2%" x="-8.7%" y="-4.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="my-network-i" d="M11.3976932,0.114956583 C14.4744092,0.114956583 16.96641,2.54193438 16.96641,5.53837065 C16.96641,8.53480692 14.4744092,10.9617847 11.3976932,10.9617847 C8.32097708,10.9617847 5.82897627,8.53480692 5.82897627,5.53837065 C5.82897627,2.54193438 8.32097708,0.114956583 11.3976932,0.114956583 Z M11.3976932,12.3176382 C15.1148117,12.3176382 22.5351269,14.1344819 22.5351269,17.7410523 L22.5351269,21.8086129 L0.260259394,21.8086129 L0.260259394,17.7410523 C0.260259394,14.1344819 7.68057464,12.3176382 11.3976932,12.3176382 Z"/>
+    <rect id="my-network-k" width="69.609" height="67.793"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1)">
+    <use fill="#000" filter="url(#my-network-a)" xlink:href="#my-network-b"/>
+    <use fill="url(#my-network-c)" xlink:href="#my-network-b"/>
+    <g filter="url(#my-network-d)" transform="translate(5 14)">
+      <mask id="my-network-f" fill="#fff">
+        <use xlink:href="#my-network-e"/>
+      </mask>
+      <g mask="url(#my-network-f)">
+        <use fill="#FFF" transform="translate(-17.25 -16.664)" xlink:href="#my-network-g"/>
+      </g>
+    </g>
+    <g filter="url(#my-network-h)" transform="translate(20 15)">
+      <mask id="my-network-j" fill="#fff">
+        <use xlink:href="#my-network-i"/>
+      </mask>
+      <g mask="url(#my-network-j)">
+        <use fill="#FFF" transform="translate(-23.407 -22.935)" xlink:href="#my-network-k"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <linearGradient id="notification-c" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#AEAEAE"/>
+      <stop offset="100%" stop-color="#788885"/>
+    </linearGradient>
+    <circle id="notification-b" cx="24.5" cy="24.5" r="24.5"/>
+    <filter id="notification-a" width="108.2%" height="108.2%" x="-4.1%" y="-2%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+    <path id="notification-d" d="M11.015,28.515 C11.015,30.165 12.35,31.5 14,31.5 C15.65,31.5 16.985,30.165 16.985,28.515 L11.015,28.515 L11.015,28.515 Z M24.32,22.23 L24.32,13.5 C24.32,8.625 20.945,4.545 16.385,3.465 L16.385,2.385 C16.385,1.065 15.32,0 14,0 C12.68,0 11.615,1.065 11.615,2.385 L11.615,3.465 C7.055,4.545 3.68,8.625 3.68,13.5 L3.68,22.23 L0.5,25.41 L0.5,27 L27.5,27 L27.5,25.41 L24.32,22.23 L24.32,22.23 Z"/>
+    <rect id="notification-f" width="75" height="75"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1)">
+    <use fill="#000" filter="url(#notification-a)" xlink:href="#notification-b"/>
+    <use fill="url(#notification-c)" xlink:href="#notification-b"/>
+    <g transform="translate(11 9)">
+      <mask id="notification-e" fill="#fff">
+        <use xlink:href="#notification-d"/>
+      </mask>
+      <g mask="url(#notification-e)">
+        <use fill="#FFF" transform="translate(-23.5 -22.5)" xlink:href="#notification-f"/>
+      </g>
+    </g>
+  </g>
+</svg>

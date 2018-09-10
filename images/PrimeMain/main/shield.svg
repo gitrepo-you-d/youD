@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="56" viewBox="0 0 47 56">
+  <defs>
+    <path id="shield-b" d="M42.1094511,5.67253011 L23.0320809,0.0750357663 L22.9927936,0.0640631288 C22.6706577,-0.0213371159 22.3298578,-0.0213371159 22.0075158,0.0639596134 L21.9877174,0.0692389012 L2.89065202,5.67253011 C1.48187494,6.05667593 0.5,7.34389053 0.5,8.81142904 L0.5,36.1164234 C0.5,39.7014739 2.47127738,42.9338473 5.64777995,44.5648367 L18.1397205,51.9356542 L18.2265445,51.9831678 C19.5644806,52.6609869 21.0322403,53 22.5,53 C23.9676566,53 25.4355194,52.6610904 26.7733524,51.9831678 L26.8175893,51.9608084 L39.3522201,44.5648367 C42.5287226,42.9340543 44.5,39.7016809 44.5,36.1164234 L44.5,8.81142904 C44.4998969,7.34399405 43.5182282,6.05677945 42.1094511,5.67253011 Z"/>
+    <filter id="shield-a" width="109.1%" height="107.5%" x="-2.3%" y="-1.9%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+    <linearGradient id="shield-e" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5515F"/>
+      <stop offset="100%" stop-color="#9F041B"/>
+    </linearGradient>
+    <polygon id="shield-d" points="12 0 15.553 7.242 23.5 8.403 17.75 14.04 19.107 22 12 18.242 4.893 22 6.25 14.04 .5 8.403 8.446 7.242"/>
+    <filter id="shield-c" width="117.4%" height="118.2%" x="-8.7%" y="-4.5%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" transform="translate(0 .5)">
+    <use fill="#000" filter="url(#shield-a)" xlink:href="#shield-b"/>
+    <use fill="#7ED321" fill-rule="evenodd" xlink:href="#shield-b"/>
+    <g transform="translate(11 9.5)">
+      <use fill="#000" filter="url(#shield-c)" xlink:href="#shield-d"/>
+      <use fill="url(#shield-e)" fill-rule="evenodd" xlink:href="#shield-d"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <filter id="explore-a" width="108.2%" height="108.2%" x="-4.1%" y="-2%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="explore-b" d="M24.5,21.805 C23.0055,21.805 21.805,23.0055 21.805,24.5 C21.805,25.9945 23.0055,27.195 24.5,27.195 C25.9945,27.195 27.195,25.9945 27.195,24.5 C27.195,23.0055 25.9945,21.805 24.5,21.805 L24.5,21.805 Z M24.5,0 C10.976,0 0,10.976 0,24.5 C0,38.024 10.976,49 24.5,49 C38.024,49 49,38.024 49,24.5 C49,10.976 38.024,0 24.5,0 L24.5,0 Z M29.8655,29.8655 L9.8,39.2 L19.1345,19.1345 L39.2,9.8 L29.8655,29.8655 L29.8655,29.8655 Z"/>
+    <linearGradient id="explore-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#AEAEAE"/>
+      <stop offset="100%" stop-color="#788885"/>
+    </linearGradient>
+    <rect id="explore-e" width="120.528" height="120.528"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#explore-a)" transform="translate(1)">
+    <mask id="explore-c" fill="#fff">
+      <use xlink:href="#explore-b"/>
+    </mask>
+    <g mask="url(#explore-c)">
+      <use fill="url(#explore-d)" transform="translate(-35.875 -35.875)" xlink:href="#explore-e"/>
+    </g>
+  </g>
+</svg>
